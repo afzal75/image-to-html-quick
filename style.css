@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #172d5c;
+}
+
+header{
+    padding: 15px 0;
+    border-bottom: 2px solid #ddd;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+.logo{
+    float: left;
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    float: right;
+    width: 50%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #172d5c;
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+}
+.menu ul li a:hover{
+    color: #008aff;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.banner{
+    padding: 50px 0;
+}
+.container2{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.b_h1{
+    font-size: 50px;
+    padding: 0 50px;
+    margin: 0;
+}
+.b_h1 span{
+    color: #008aff;
+}
+.b_p{
+    line-height: 25px;
+    margin: 20px 0;
+}
+.b_img{
+    margin: 0 auto;
+    width: 80%;
+}
+.b_img img{
+    width: 100%;
+}
+.success{
+    padding: 50px 0;
+}
+.container3{
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto;
+}
+.s-left{
+    padding-right: 0px;
+    padding-left: 10px;
+    width: 47%;
+    float: left;
+    text-align: right;
+}
+.s-left h2{
+    font-size: 45px;
+    color: #f15767;
+    margin: 0;
+}
+.s-left p{
+    line-height: 25px;
+    margin: 5px 0 0;
+}
+.s-right{
+    padding-right: 10px;
+    padding-left: 0px;
+    float: right;
+    width: 47%;
+}
+.s-right h1{
+    font-size: 45px;
+    margin: 0;
+}
+.feature{
+    padding-bottom: 50px;
+}
+.f_single{
+    float: left;
+    width: 27%;
+    padding: 50px 28px;
+    margin-right: 26px;
+}
+.f_single:last-child{
+    margin-right: 0;
+}
+.f_img{}
+.f_img img{
+    width: 100%;
+}
+.f_single h2{
+    margin: 20px 0;
+    font-size: 25px;
+}
+.f_single p{
+    margin: 0;
+    line-height: 25px;
+}
+.pink{
+    background-color: #fdebed;
+}
+.green{
+    background-color: #ebf9f4;
+}
+.yellow{
+    background-color: #fff7e8;
+}
+footer{
+    padding: 30px 0;
+    background-color: #008aff;
+    
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+footer p a{
+    color: white;
+    text-decoration: none;
+}
+footer p a:hover{
+    color: #3f3d56;
+}
+
